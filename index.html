@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>custom your select box</title>
+    <link rel="stylesheet" type="text/css" href="selectbox.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="jquery.customselectbox.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#Items').customselectbox();
+	});
+	</script>
+</head>
+<body>
+	<select name="Items" id="Items">
+		<option value="option1">option1</option>
+		<option value="option2">option2</option>
+		<option value="option3">option3</option>
+		<option value="option4">option4</option>	
+	</select>
+</body>
+</html>
