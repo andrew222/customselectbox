@@ -10,7 +10,7 @@ A jQuery plugin to custom your select box
 	  <option>option2</option>
 	</select>
 ##### Javascript
-	$("#item").customselectbox({position: "bottom"});
+	$("#item").customselectbox({position: "after"});
 ##### css
 	.customselectbox {
 		padding: 10px;
